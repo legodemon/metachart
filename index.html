@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Weather Archive</title>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <script type="application/javascript" src="/index.js"></script>
+</head>
+<body>
+    <div class="app">
+        <div class="app__title">Архив метеослужбы</div>
+        <div class="app-container">
+            <div class="app-container-types">
+                <div id="button-temp" class="app-container-types__item">Температура</div>
+                <div id="button-precipitation" class="app-container-types__item">Осадки</div>
+            </div>
+            <div class="app-container-data">
+                <div class="app-container-data-years">
+                    <select id="select-yearsStart" class="app-container-data-years__item">
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                    </select>
+                    <select id="select-yearsEnd" class="app-container-data-years__item">
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>1</option>
+                    </select>
+                </div>
+                <canvas id="graphic" class="app-container-data__graphics" width="540" height="350">
+                </canvas>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
